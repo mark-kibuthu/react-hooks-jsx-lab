@@ -13,7 +13,7 @@ test("renders the h1 with the text 'Name is a Web Developer from City'", () => {
   render(<Home />);
 
   // Find an element with the text content `${name} is a Web Developer from ${city}`
-  // This uses the variables defined in src/data/data.js
+  // This uses the variables defined in src/data/data..js
   const h1 = screen.queryByText(`${name} is a Web Developer from ${city}`);
 
   expect(h1).toBeInTheDocument();
